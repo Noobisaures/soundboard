@@ -1,1 +1,41 @@
+body {
+    background-image: url('image.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+    margin-bottom: 20px;
+}
+
+.grid-item {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border: none;
+}
+
+#stopBtn, #presetBtn {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#fileInput {
+    display: block;
+    margin: 10px auto;
+}
 
